@@ -21,6 +21,7 @@ export class LoadingPage extends Component {
         }
         return (
             <div>
+                <div className="chatbox"/>
                 <Cat />
                     <div className="flier"></div>
                     <div className="balloonCat"></div>

@@ -4,6 +4,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import './index.css'
 import './styles/card.css'
 import './styles/loading.css'
+import './styles/chatbox.css'
 import App from './components/App'
 
 ReactDOM.render(

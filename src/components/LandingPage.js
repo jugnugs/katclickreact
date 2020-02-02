@@ -5,6 +5,7 @@ export class LandingPage extends Component {
     render() {
         return (
               <div className="App">
+                    <div className="chatbox"/>
                     <Cat />
                     <Upload_/>
   
