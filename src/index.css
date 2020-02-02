@@ -63,6 +63,9 @@ body {
 a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
+i {
+	color: #009900;
+}
 .flier {
     background-image: url(images/flier.gif);
     width: 200px;

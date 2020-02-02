@@ -6,7 +6,9 @@ const CardView = (props) => {
         <div className="CardView">
         <div className="cardTitle">mycat.jpg</div>
           <div className="cardImage" />
-            <div className="rating"><b>Engagement Value</b>: 9999999</div>
+            <div className="rating"><b>Number of Followers</b>: 1256</div>
+            <div className="rating"><b>Predicted Number of Likes</b>: 50.24</div>
+            <div className="rating"><b>Score</b>: <i><b>Above Average</b></i></div>
             <Link to="https://www.instagram.com/">
                 <div className="cardButton1">
                     <div className="buttonText">
