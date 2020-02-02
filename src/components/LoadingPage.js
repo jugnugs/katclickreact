@@ -11,7 +11,7 @@ export class LoadingPage extends Component {
         setTimeout(() => {
             console.log('In the setTimeout function');
             this.setState({redirect : true});
-        }, 2000);
+        }, 3000);
     }
 
     render() {

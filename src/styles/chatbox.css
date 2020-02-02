@@ -1,0 +1,10 @@
+.chatbox{
+	position: relative;
+	margin: auto;
+	left: 160px;
+	top: 140px;
+    background-image: url(../images/chat1.gif);
+    width: 273px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
