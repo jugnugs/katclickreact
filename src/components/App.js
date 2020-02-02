@@ -15,33 +15,24 @@ class App extends Component {
 
     render() {
         return (
-        <Switch>
-            <Route exact path="/" component = {LandingPage}/>
-            <Route exact path="/loading" component = {LoadingPage}/>
-            <Route exact path="/results" component = {ResultsPage}/>
-        </Switch>
+            <div className="App">
+            <Title />
+            <Switch>
+                <Route exact path="/" component = {LandingPage}/>
+                <Route exact path="/loading" component = {LoadingPage}/>
+                <Route exact path="/results" component = {ResultsPage}/>
+            </Switch>
+            </div>
         )
     }
 }
 
-export default App;
-// const APPS = {
-//     LandingPage,
-//     LoadingPage,
-//     ResultsPage
-// }
+// title component
+function Title() {
+    return (
+        <div className="Title">katClick</div>
+    );
+  }
 
-// // // switch between pages
-// // function renderAppInElement(el) {
-// //     var App = APPS[el.id];
-// //     if (!App) return;
-  
-// //     // get props from elements data attribute, like the post_id
-// //     const props = Object.assign({}, el.dataset);
-  
-// //     ReactDOM.render(<App {...props} />, el);
-// //   }
-  
-// //   document
-// //     .querySelectorAll('.__react-root')
-// //     .forEach(renderAppInElement)
+
+export default App;

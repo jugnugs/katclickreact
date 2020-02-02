@@ -1,0 +1,61 @@
+.CardView {
+	position: relative;
+    top: 100px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    display: block; 
+    text-align: center;
+    justify-content: center;
+	align-items: center;
+    background-color: white;
+    border: 1px solid #696969;
+}
+.cardTitle {
+    font-family: helvetica;
+    font-size: 30px;
+    color: #696969;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cardImage {
+	background-image: url(../images/example.jpg);
+    width: 100%;
+    height: 300px;
+    margin: auto auto auto 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.rating {
+    font-family: helvetica;
+    margin: 10px 0 0 0;
+}
+
+.cardButton1 {
+    background-color: #ea536d;
+    margin: 10px 0 0 0;
+    width: auto;
+    height: 40px;
+    border: none;
+}
+
+.cardButton2 {
+    background-color: #3366cc;
+    margin: 1px 0 0 0;
+    width: auto;
+    height: 40px;
+    border: none;
+}
+
+.buttonText {
+    font-family: helvetica;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px; 
+    font-size: 15px;
+    color: white;
+    text-shadow: 0px 2px 3px #696969;
+}

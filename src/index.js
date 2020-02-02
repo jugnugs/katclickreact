@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {BrowserRouter as Router} from 'react-router-dom'
 import './index.css'
+import './styles/card.css'
+import './styles/loading.css'
 import App from './components/App'
 
 ReactDOM.render(

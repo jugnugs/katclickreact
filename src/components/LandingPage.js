@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
-import Upload from './Upload'
+import { Link, Redirect } from 'react-router-dom';
 
 export class LandingPage extends Component {
     render() {
         return (
               <div className="App">
-                    <Title />
                     <Cat />
                     <Upload_/>
   
@@ -19,14 +18,7 @@ export class LandingPage extends Component {
         )
       }
     }
-  
-    // title component
-    function Title() {
-      return (
-          <div className="Title">katClick</div>
-      );
-    }
-  
+
     // kitty komponent
     function Cat() {
         return (
@@ -40,24 +32,13 @@ export class LandingPage extends Component {
           <div className="uploadContainer">
               <input type="file" name="file"/>
   
-              <button className="uploadButton" type="button">
+              <Link to="/loading">
+              <div className="uploadButton">
                   <div className="uploadText">Upload</div>
-              </button>
+                  </div>
+              </Link>
           </div>
         );
     }
 
     export default LandingPage;
-  
-  
-  
-    // on button click
-    /*
-    function uploadFile() {
-        return (
-          
-        );
-    }
-    */
-  
-    // card component
